@@ -72,7 +72,7 @@ export default function SectionComments(props) {
                       }}
                       inputProps={{
                         value:editingValue,
-                        placeholder:"Write something you lil punk!",
+                        placeholder:"Write a comment!",
                         onChange: (e)=>{setEditingValue(e.target.value)},
                         multiline: true,
                       }}
@@ -124,7 +124,7 @@ export default function SectionComments(props) {
                 }}
                 inputProps={{
                   value:commentData,
-                  placeholder:"Write something you lil punk!",
+                  placeholder:"Write a comment!",
                   onChange: onCommentTextChangeHandler,
                   multiline: true,
                 }}
