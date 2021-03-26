@@ -15,7 +15,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import teamStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle.js";
 
 import FaceLiviu from "assets/img/faces/liviu.jpg";
-import FaceSandu from "assets/img/faces/sandu.jpg";
+import FaceSandu from "assets/img/faces/sandu.png";
 import FaceMihai from "assets/img/faces/mihai.jpg";
 import FaceVlad from "assets/img/faces/vlad.jpg";
 import FaceTriss from "assets/img/faces/triss.jpg";
