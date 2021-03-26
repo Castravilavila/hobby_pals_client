@@ -153,7 +153,7 @@ export default function MainPage({...rest}) {
                                                     </GridItem>
                                                 )
                                             })}
-                                        {(categories.length>0&&categoriesPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={categoriesPageCount} page={categoriesPage} onChange={handleCategoriesPageChange} />:<h2 style={{margin:"auto auto"}}>You have no followed categories</h2>}
+                                        {(categories.length>0&&categoriesPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={categoriesPageCount} page={categoriesPage} onChange={handleCategoriesPageChange} />:<h2 style={{margin:"3rem auto"}}>You have no followed categories</h2>}
                                         </GridContainer>
                                     )
                                 },
@@ -167,7 +167,7 @@ export default function MainPage({...rest}) {
                                                     <PostCard post = {p}/>
                                                 )
                                             })}
-                                        {(postsByCategory.length>0&&postsByCategoryPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={postsByCategoryPageCount} page={postsByCategoriesPage} onChange={handlePostsByCategoriesPageChange} />:<h2 style={{margin:"auto auto"}}>No posts from followed categories ;(</h2>}
+                                        {(postsByCategory.length>0&&postsByCategoryPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={postsByCategoryPageCount} page={postsByCategoriesPage} onChange={handlePostsByCategoriesPageChange} />:<h2 style={{margin:"3rem auto"}}>No posts from followed categories ;(</h2>}
                                         </GridContainer>
                                     )
                                 },
@@ -181,7 +181,7 @@ export default function MainPage({...rest}) {
                                                <GroupCard group = {g}/>
                                                )
                                            })}
-                                        {(groups.length>0&&groupsPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={groupsPageCount} page={groupsPage} onChange={handleGroupsPageChange} />:<h2 style={{margin:"auto auto"}}>You have no created or joined groups ;(</h2>}
+                                        {(groups.length>0&&groupsPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={groupsPageCount} page={groupsPage} onChange={handleGroupsPageChange} />:<h2 style={{margin:"3rem auto"}}>You have no created or joined groups ;(</h2>}
                                         </GridContainer>
                                     )
                                 },
@@ -195,7 +195,7 @@ export default function MainPage({...rest}) {
                                                     <PostCard post = {p}/>
                                                 )
                                             })}
-                                        {(postsByGroup.length>0&&postsByGroupsPageCount!=0)?<Pagination style={{width:'50%',margin:"5rem auto",justifyContent:"center !important"}} count={postsByGroupsPageCount} page={postsByGroupsPage} onChange={handlePostsByGroupsPageChange} />:<h2 style={{margin:"auto auto",padding:"2rem 4rem",backgroundColor:'gray',border:"1px black"}}>No posts from joined groups ;(</h2>}
+                                        {(postsByGroup.length>0&&postsByGroupsPageCount!=0)?<Pagination style={{width:'50%',margin:"auto auto",justifyContent:"center !important"}} count={postsByGroupsPageCount} page={postsByGroupsPage} onChange={handlePostsByGroupsPageChange} />:<h2 style={{margin:"3rem auto"}}>No posts from joined groups ;(</h2>}
                                         </GridContainer>
                                     )
                                 },

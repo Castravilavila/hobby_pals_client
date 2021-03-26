@@ -345,27 +345,6 @@ export default function SignUpPage({ ...rest }) {
                             placeholder: "Password..."
                           }}
                         />
-                        <FormControlLabel
-                          classes={{
-                            label: classes.label
-                          }}
-                          control={
-                            <Checkbox
-                              tabIndex={-1}
-                              onClick={() => handleToggle(1)}
-                              checkedIcon={
-                                <Check className={classes.checkedIcon} />
-                              }
-                              icon={<Check className={classes.uncheckedIcon} />}
-                              classes={{
-                                checked: classes.checked,
-                                root: classes.checkRoot
-                              }}
-                              checked={checked.indexOf(1) !== -1 ? true : false}
-                            />
-                          }
-                          
-                        />
                         <div className={classes.textCenter}>
                           {loading?
                           <CircularProgress/>:
