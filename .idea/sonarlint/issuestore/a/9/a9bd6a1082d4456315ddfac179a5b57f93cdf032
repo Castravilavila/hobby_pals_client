@@ -1,0 +1,19 @@
+
+Zjavascript:S1481"9Remove the declaration of the unused 'imageUrl' variable.(”ô£8¢ôª³ƒ/
+_javascript:S1854"9Remove this useless assignment to variable "faultyTitle".(§—‹Ùûÿÿÿÿ8¢ôª³ƒ/
+bjavascript:S1481"<Remove the declaration of the unused 'faultyTitle' variable.(§—‹Ùûÿÿÿÿ8¢ôª³ƒ/
+ajavascript:S1481";Remove the declaration of the unused 'faultyText' variable.(°Ñ•üÿÿÿÿ8¢ôª³ƒ/
+Wjavascript:S1854"6Remove this useless assignment to variable "imageUrl".(”ô£8¢ôª³ƒ/
+^javascript:S1854"8Remove this useless assignment to variable "faultyText".(°Ñ•üÿÿÿÿ8¢ôª³ƒ/
+Kjavascript:S1128"(Remove this unused import of 'Snackbar'.(ø‰éÎ8©ÜÏË„/
+Ljavascript:S1128"$Remove this unused import of 'clsx'.(Ï§Ø×üÿÿÿÿ8©ÜÏË„/
+[javascript:S1481"5Remove the declaration of the unused 'open' variable.(ÕíçŞıÿÿÿÿ8©ÜÏË„/
+Xjavascript:S1854"2Remove this useless assignment to variable "open".(ÕíçŞıÿÿÿÿ8©ÜÏË„/
+^javascript:S1481"8Remove the declaration of the unused 'setOpen' variable.(ÕíçŞıÿÿÿÿ8©ÜÏË„/
+[javascript:S1854"5Remove this useless assignment to variable "setOpen".(ÕíçŞıÿÿÿÿ8©ÜÏË„/
+]javascript:S1481"<Remove the declaration of the unused 'setImageUrl' variable.(”ô£8©ÜÏË„/
+Zjavascript:S1854"9Remove this useless assignment to variable "setImageUrl".(”ô£8©ÜÏË„/
+`javascript:S1481"?Remove the declaration of the unused 'loadingClasses' variable.(»‡˜8©ÜÏË„/
+]javascript:S1854"<Remove this useless assignment to variable "loadingClasses".(»‡˜8©ÜÏË„/
+^javascript:S1481"8Remove the declaration of the unused 'history' variable.(®õêÀûÿÿÿÿ8©ÜÏË„/
+[javascript:S1854"5Remove this useless assignment to variable "history".(®õêÀûÿÿÿÿ8©ÜÏË„/
